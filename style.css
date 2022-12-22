@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0.5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#text-display {
+    height: 95%;
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
+
+#input {
+    background-color: transparent;
+    position: relative;
+    color: inherit;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+#input::placeholder {
+    color: rgb(224, 224, 224) !important;
+}
+
+#input:focus-visible {
+    outline: none;
+}
